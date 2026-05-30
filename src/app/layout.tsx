@@ -34,6 +34,7 @@ export default function RootLayout({
         <html lang="en">
             <body
                 className={`${geistSans.variable} ${geistMono.variable} ${saolDisplay.variable} antialiased`}
+                suppressHydrationWarning
             >
                 <div className="hidden lg:block">
                     <SmoothScrolling>{children}</SmoothScrolling>

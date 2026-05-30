@@ -47,7 +47,7 @@ const Pictures = () => {
                 <div className="flex flex-col gap-40">
                     <div className="w-3/4 relative">
                         <Image
-                            src={"/23.jpg"}
+                            src={"/3-12.jpeg"}
                             alt="Art female"
                             width={0}
                             height={0}
@@ -93,7 +93,7 @@ const Pictures = () => {
                 <div className="pt-20">
                     <div className="w-4/5 relative -z-10 ms-auto">
                         <Image
-                            src={"/21.jpg"}
+                            src={"/sn.jpg"}
                             alt="Art female"
                             width={0}
                             height={0}

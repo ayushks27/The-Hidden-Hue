@@ -94,7 +94,7 @@ const Footer = () => {
                         target="_blank"
                         className="text-white font-semibold cursor-pointer"
                     >
-                        Ayush
+                        Purnendu
                     </Link>
                 </p>
             </div>
