@@ -1,42 +1,83 @@
 # The Hidden Hue
 
-The Hidden Hue is an art gallery that brings together photography, painting, and artificial intelligence to create a unique visual experience. By blending traditional artistic expression with modern technology, the gallery showcases surreal, imaginative, and thought-provoking works that explore beauty beyond what is immediately visible.
-
-## About
-
-The Hidden Hue serves as a creative space where art and innovation intersect. Through carefully curated collections, it highlights the possibilities of combining human creativity with AI-generated inspiration, offering visitors a fresh perspective on visual storytelling.
+The Hidden Hue is a modern digital art gallery that blends photography, painting, and AI-generated creativity into an immersive visual experience. The platform showcases surreal and evocative artworks, exploring the intersection of technology and imagination while revealing beauty beyond the visible.
 
 ## Features
 
-- Curated collection of photography, paintings, and AI-generated artwork
-- Surreal and imaginative visual experiences
-- Exploration of the relationship between technology and creativity
-- Modern and engaging gallery presentation
-- Accessible platform for discovering unique artistic expressions
+- Interactive and responsive user interface
+- Smooth animations powered by GSAP
+- Modern design built with Tailwind CSS
+- AI-inspired artistic showcase
+- Optimized performance with Next.js
+- Type-safe development using TypeScript
 
-## Vision
+## Tech Stack
 
-Our vision is to inspire curiosity and creativity by showcasing artwork that transcends traditional boundaries. The Hidden Hue celebrates the harmony between human imagination and technological advancement, revealing hidden dimensions of beauty and expression.
+- Next.js
+- TypeScript
+- Tailwind CSS
+- GSAP
+- React
+- PostCSS
+- ESLint
 
-## Technologies Used
+## Project Structure
 
-- HTML
-- CSS
-- JavaScript
-- AI-assisted creative tools
+```text
+src/
+├── app/
+│   ├── fonts/
+│   ├── provider/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+├── types/
+└── utils/
+
+public/
+```
 
 ## Getting Started
 
-1. Clone or download the repository.
-2. Open the project directory.
-3. Launch `index.html` in your browser.
+### Install Dependencies
 
-## Contributing
+```bash
+npm install
+```
 
-Contributions are welcome. Feel free to open issues or submit pull requests to help improve the project.
+### Run Development Server
+
+```bash
+npm run dev
+```
+
+Open http://localhost:3000 in your browser.
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Start Production Server
+
+```bash
+npm start
+```
+
+## Vision
+
+The Hidden Hue is a creative space where traditional artistry meets modern technology. Through a fusion of photography, painting, and AI-assisted expression, the platform aims to inspire curiosity, imagination, and new perspectives on visual storytelling.
+
+## Future Enhancements
+
+- Expanded artwork collections
+- Artist spotlight sections
+- Dynamic gallery transitions
+- Enhanced AI-powered art experiences
+- Interactive exhibition showcases
 
 ## License
 
-This project is available for educational and personal use.
-
-
+This project is open for educational and portfolio purposes.
