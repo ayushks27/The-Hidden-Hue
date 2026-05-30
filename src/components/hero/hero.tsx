@@ -20,7 +20,7 @@ export default function Hero({
     useLayoutEffect(() => {
         // Text reveal animation
         heroSectionTextReveal(heroHead1Ref, heroHead2Ref, heroHead3Ref);
-    }, []);
+    }, [heroHead1Ref, heroHead2Ref, heroHead3Ref]);
     return (
         <div
             ref={contentRef}
